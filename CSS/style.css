@@ -1,0 +1,387 @@
+*{
+	margin: auto;
+	padding: auto;
+	font-family: cursive;
+}
+
+.wrapper{
+	height: 1100px;
+	width: 100%;
+}
+
+	
+.name{
+	width:24%;
+	height:60px; 
+	color: white;
+	float: left;
+	padding: 10px;
+	font-size: 25px;
+	position: fixed;
+}
+.name:hover{
+	transition-delay: 0.1s;
+	transition-duration: 3s;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	line-height: 80px; 
+	float: right;
+	font-size: 25px;
+}
+nav:hover{
+	transition-delay: 0.1s;
+	transition-duration: 3s;
+	
+}
+nav ul{
+	float: right;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.3s all;
+}
+
+ nav ul li:hover{
+ 	background-color:#135595;
+ 	transition-delay: 0.1s;
+ 	transition-duration:1s;
+ 	transition-timing-function: 2s;
+ }
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+}
+button{
+	background-color: #c1051520;
+	color: black;
+	font-size: 20px;
+	border-radius: 14px;
+	border: solid white 2px;
+	line-height: 40px;
+	width: 20%;
+	padding:10px;
+}
+button a {
+	color: black;
+}
+button:hover{
+	background-color: #135595;
+}
+
+
+/*CSS for Homepage starts here*/
+.blank0{
+	width:70%;
+	height: 100px;
+}
+.icons{
+	padding-top: 40px;
+	padding-right: 10px;
+	float: right;
+	width: 10%;
+	
+}
+.icons ul{
+	list-style-type: none;
+}
+.icons ul li{
+	text-align: center;
+	padding: 10px;
+}
+.blank{
+	height: 400px;
+	width:79.4%;
+	float: left;
+}
+.details1{
+	height: 300px;
+	width: 40%;
+	float: left;
+	margin: 10px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+.details2{
+	height: 300px;
+	width: 40%;
+	float: right;
+	margin: 10px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+
+}
+.details3{
+	height: 300px;
+	width: 40%;
+	float: left;
+	margin: 10px;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+
+}
+.details4{
+	height: 250px;
+	width: 40%;
+	float: right;
+	margin: 10px;
+	text-align: center;
+	color: white;
+	margin-right: 25px;
+	font-size: 30px;
+}
+/*CSS for footer starts here*/
+.footer{
+	width:100%;
+	height: 120px;
+	font-size: 25px;
+}
+.footer1{
+	width: 100%;
+	height: 50px;
+}
+
+
+
+
+/*CSS for CV starts here*/
+.hollow1{
+	width:15%;
+	height: 1000px;
+	float: left;
+	margin: 0px;
+}
+
+.side1{
+	width: 25%;
+	height: 1400PX;
+	background-color: #00162b;
+	float: left;
+	box-shadow:  #4b4b4b;
+
+ }
+ .side11{
+ 	width:100%;
+ 	height: 360px;
+ 	background-color: white;
+
+
+ }
+ .side111{
+ 	width: 80%;
+ 	height: 300PX;
+ 	margin-top: 10px;
+ 	padding: 5px;
+	font-size: 25px;
+	color: white;
+	float: center;
+ }
+ .hollow2{
+ 	width: 100%;
+ 	height: 500px;
+
+ }
+  .side2{
+ 	width: 40%;
+ 	height:1400px;
+ 	background-color: #CCCCCC;
+ 	padding-left: 350px;
+ 	box-shadow: 10px 5px 10px 10px #4b4b4b;
+ 
+ }
+ .hollow{
+ 	height:40px;
+ 	width:100%; 
+ }
+ .short_description{
+ 	width: 80%;
+ 	height: 230px;
+ 	color: #00162b;
+ 	text-align: justify;
+ 	font-size: 20px;
+ 	
+ }
+ .title{
+ 	width:100%;
+ 	height: 55px;
+ 	background-color: #00162b;
+ 	color: white;
+ }
+ .education{
+	width: 80%;
+ 	height: 460px;
+ 	color: #00162b;
+  	font-size: 20px;
+ }
+ .skills{
+	width: 80%;
+ 	height: 375px;
+	color: #00162b;
+	font-size: 20px;
+ }
+ .experince{
+	width: 80%;
+ 	height: 130px;
+	color: #00162b;
+	font-size: 20px;
+ }
+ .languages{
+	width: 80%;
+ 	height: 100px;
+	color: #00162b;
+	font-size: 20px;
+  }
+
+
+
+/*CSS for Blog  starts here*/
+.slider{
+	height: 600px;
+	width: 80%;
+	display: flex;
+	overflow: hidden;
+	margin-right: 20px; 
+}
+.technology1{
+height: 350px;
+width: 40%;
+font-size: 20px;
+}
+.techimage1{
+height: 500px;
+width: 40%;
+}
+.header{
+	height: 50px;
+	width: 50%;
+	color: #7b0000;
+	text-align: center;
+	font-size: 29px;
+	background-color: #CCCCCC;
+}
+.technology2{
+height: 400px;
+width: 40%;
+font-size: 20px;
+}
+.techimage2{
+height:400px;
+width: 40%; 
+}
+.technology3{
+height: 210px;
+width: 40%;
+font-size: 20px;
+}
+.header1{
+	height: 50px;
+	width: 42%;
+	color: #7b0000;
+	padding-left:10px;
+	text-align: center;
+	font-size: 29px;
+	background-color: #CCCCCC;
+}
+.technology4{
+height: 280px;
+width: 40%;
+font-size: 20px;
+}
+.technology5{
+height: 350px;
+width: 40%;
+font-size: 20px;
+}
+
+
+
+
+
+/*Css for Research starts here*/
+.footer2{
+	height: 30px;
+	width: 100%;
+}
+.header2{
+	height: 60px;
+	width: 79%;
+	text-align: center;
+	background-color:#CCCC;
+}
+.research1{
+	height: 200px;
+	width:100%; 
+}
+.research2{
+	height:500px;
+	width: 39%;
+	float: left;
+	margin-left: 202px;
+ 
+}
+.research3{
+	height:500px;
+	width: 28%;
+	float: right;
+}
+.Explanation{
+	height: 250px;
+	width: 80%;
+	font-size: 20px;
+	text-align: center;
+}
+.wrapper3{
+	height: 620px;
+	width: 100%;
+}
+.research4{
+	height:200px;
+	width: 35%;
+	float: left;
+	margin-left: 202px;
+ 
+}
+.research5{
+	height:200px;
+	width: 50%;
+	display: flex;
+}
+.research6{
+	height: 500px;
+	width: 35%;
+	float: left;
+	margin-left: 200px
+}	
+.research7{
+	height: 500px;
+	width: 50%;
+	float: right;
+	margin-right: 50px;
+}	
+
+
+/*CSS for Contact Us starts here.*/
+.blank1{
+	
+	width: 90%;
+	height:200px;
+}
+.form{
+	font-size: 30px;
+	height: 500px;
+	width: 20%;
+	border-radius: 5%;
+	background-color: #CCCCCC;
+	padding: 15px;
+	box-sizing: content-box;
+	background-color: white;
+}

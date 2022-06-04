@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<!--Internal CSS for inserting  background image-->
+		<style type="text/css">
+			body{
+				background-image: url(../Images/Blog1.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+
+				}
+		</style>
+		<!--Link to external CSS-->
+		<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+
+		<!--Meta tags-->
+		<meta charset="utf-8">
+		<meta name="Description" content="Blog">
+		<meta name="Author" content="Nikhil Acharya">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Blog</title>
+
+	</head>
+		<!--Division for Name near navigation bar-->
+		<div class="name">
+			<h1 style="color: #202222;"><span style="color: black;">NIKHIL ACHARYA</h1></span>
+		</div>
+
+		<!--Navigation bar starts from here-->
+		<nav>
+			<ul>
+				<li><a href="../index.html">Home </a></li>
+				<li><a href="../Pages/CV.html" target="_blank" >CV</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="../Pages/Research.html" target="_blank">Research</a></li>
+				<li><a href="../Pages/Contact Us.html" target="_blank">Contact Us</a></li>
+			</ul>
+		</nav>
+	<body>
+
+	<!--Inserting social media icon with links-->
+		<div class="icons">
+			<h1 style="text-align: center;">Follow On</h1>
+			<ul>
+				<li><a href="https://www.facebook.com/hunter.boei" target="_blank"><img src="../Images/Facebook.png" width="50px", height="50px" alt="Facebook"></a></li>
+				<li><a href="https://twitter.com/NikhilA81874421" target="-_blank"><img src="../Images/Twitter.png" width="50px", height="50px" alt="Twitter"></a></li>
+				<li><a href="https://www.pinterest.com/acharyanikhil59/_saved/" target="_blank"><img src="../Images/Pintrest.png"width="50px", height="50px" alt="Pinterest"></a></li>
+				<li><a href="https://www.instagram.com/nikhil_acharya12/" target="_blank"><img src="../Images/Instagram.png"width="50px", height="50px" alt="Instagram"></a></li>
+			</ul>
+		</div>
+		<body>
+
+			<!--Blank partition-->
+			<div class="blank0"></div>
+			<!--Partition for image slider-->
+			<div class="slider">
+
+	    <div id="img">
+	      <img src="../Images/Tesla.png" >
+	    </div>
+
+	  </div>
+	  <!--JavaScript for Image slider-->
+	  <script>
+	    var images = ['../Images/Smartwatch.png', '../Images/VR.png', '../Images/Robot.png', '../Images/Cloud.png', '../Images/Tesla.png','../Images/Blog.png'];
+		var x = 0;
+	    var imgs = document.getElementById('img');
+
+	    //Setting intreval for changing image//
+	    setInterval(slider, 2000);
+	    function slider() 
+	    {
+	      if (x < images.length) {
+	        x = x + 1;
+	      } else {
+	        x = 1;
+	    }
+
+	      imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+	    	}
+		</script>
+		<br>
+
+		<!--Header Starts here-->
+		<div class="header">
+			
+				Brief explaination of various technologies.
+		</div>
+		<br>
+			<br>
+			<!Modern Technologies Explanation>
+		<div class="techimage1">
+			<h2>1. VR Headset</h2>
+			<img src="../Images/VR.png" width="780px" height="470px">
+			<br>
+			</div>
+			<br>
+			<div class="technology1">
+				<p>
+					In this modernized tech world, the place of VR headsets is no more hidden. The virtual world is directly taken in front of your eyes by just wearing a box-shaped headset. As you can see in the above image, the VR headsets are very convenient and easily available in the stores. (Virtual Reality headset) A head-worn apparatus that completely covers the eyes for an immersive 3D experience. Also called "VR goggles," VR headsets may be entirely self-contained such as the Oculus Rift or the HTC Vive. They are costly and must be tethered to a very robust computer to handle the animation. Considerably less expensive units require the user's smartphone to be strapped onto the device.Whether within the goggles or relying on the smartphone, VR headsets use some combination of accelerometer, gyroscope, magnetometer and proximity sensor to detect the user's motion
+				</p>	
+			</div>
+		<div class="techimage1">
+			<h2>2. Robot</h2>
+			<br>
+			<img  style="box-shadow: 5px 5px 5px 5px grey;" src="../Images/Robot.png" width="780px" height="470px">
+			</div>
+			<br>
+			<br>
+			<div class="technology2">
+				<p>
+					A robot is a machine - especially one programmable by a computer - capable of carrying out a complex series of actions automatically.Robots can be guided by an external control device or the control may be embedded within. Robots may be constructed on the lines of human form, but most robots are machines designed to perform a task with no regard to their aesthetics.
+					<br>
+					Robots can be autonomous or semi-autonomous and range from humanoids such as Honda's Advanced Step in Innovative Mobility (ASIMO) and TOSY's TOSY Ping Pong Playing Robot (TOPIO) to industrial robots, medical operating robots, patient assist robots, dog therapy robots, collectively programmed swarm robots, UAV drones such as General Atomics MQ-1 Predator, and even microscopic nano robots. By mimicking a lifelike appearance or automating movements, a robot may convey a sense of intelligence or thought of its own. Autonomous things are expected to proliferate in the coming decade, with home robotics and the autonomous car as some of the main drivers.
+				</p>
+			</div>
+		<div class="techimage2">
+			<h2>3. Smartwatch</h2>
+			<br>
+			<img src="../Images/Smartwatch.png" width="100%" height="350" >
+			</div>
+			
+			<div class="technology1">
+				<p>
+					A smartwatch is a portable device that's designed to be worn on a wrist. Like smartphones, they use touchscreens, offer apps, and often record your heart rate and other vital signs.
+					The Apple Watch and Wear (formerly Android Wear) models prompted more consumers to appreciate the usefulness of wearing a mini computer on their wrists. In addition, specialty smartwatches for outdoor activities often supplement other, bulkier devices in an adventurer's tool kit.
+					<br>
+					Smartwatches offers certain features like:
+					<ul><strong>
+						<li>Notifications</li>
+						<li>Apps</li>
+						<li>Media Management</li>
+						<li>GPS</li>
+						<LI>fitness tracking and many more.</LI>
+					</strong>
+					</ul>	
+				</p>
+			</div>
+			<div class="techimage1">
+			<h2>4. Cloud</h2>
+			<br>
+			<img style="box-shadow: 5px 5px 5px 5px grey;" src="../Images/Cloud.png" width="780px" height="470px">
+			</div>
+			<br>
+			<br>
+			<div class="technology3">
+				<p>
+					Cloud technology is growing rapidly. From hosting websites online to developing artificial intelligence, cloud technology is used everywhere. From the traditional hosting technologies, cloud hosting/cloud computing is significantly different due to its extreme flexibility and expandable features. Cloud technology is being utilized in several areas of the industry such as factories, businesses, research organizations, government organizations, etc. to make their jobs easier. Cloud is the future.
+				</p>
+			</div>
+			<div class="techimage1">
+			<h2>5. Self-Driving Cars</h2>
+			<br>
+			<img style="box-shadow: 5px 5px 5px 5px grey;" src="../Images/Tesla.png" width="900" height="470px">
+			</div>
+			<br>
+			<br>
+			<div class="technology3">
+				<p>
+					Cloud technology is growing rapidly. From hosting websites online to developing artificial intelligence, cloud technology is used everywhere. From the traditional hosting technologies, cloud hosting/cloud computing is significantly different due to its extreme flexibility and expandable features. Cloud technology is being utilized in several areas of the industry such as factories, businesses, research organizations, government organizations, etc. to make their jobs easier. Cloud is the future.
+				</p>
+			</div>
+			<br>
+			<div class="header1"><p style="float: left;"> Positive Impact of Technology</div>
+			<div class="technology4">
+				<p>
+					Technology allows people to communicate with one another; it has enabled you to communicate with people via email, instant messaging, Skype, social media, and so on. The internet is our main advantage because people can receive valuable information, but they can also work as freelancers or share their experiences. Technology enables businesses to save time and resources by allowing them to collaborate with individuals and distribute information to the number of users at once without the need for a conference or the printing of materials.It has improved the transportation, mechanized the agriculture, improved communication, education & learning process, technology has changed the worrld and  it plays an important role in our life.
+			</div>
+			<br>
+			<div class="header1"><p style="float: left;"> Negative Impact of Technology</div>
+			<div class="technology5">
+				<p>
+					When children use a lot of technology, they don't have enough time to use their imaginations or learn and think thoroughly about the material; they find knowledge but may forget it and might struggle to improve social skills and emotional reactions. Since technology allows anyone to locate anyone's address and contact information with a few keystrokes on the keyboard, he can use phishing, malware, and hacking to access whatever information he desires, he can obtain the location on Google Map, and he can know the life story on Facebook. When electronic wastes add a high level of toxicity to our air and land because they are not properly disposed of, the electronics cause deadly chemicals to the ground, and they emit toxic fumes into the air, technology causes a lack of empathy, the constant stream of violent scenes on video games, TV, movies, and YouTube causes people to become desensitized to destruction of any kind.
+				</p>
+			</div>
+			<div class="header1"><p style="float: left;">Verdict</div>
+			<div class="technology3">
+				<p>
+					Modern technology changed a lot from what we saw in the last decade or the past century. New machines and gadgets are invented to make jobs easier like never before. From the little tailor machine to the fastest car in the world, all got automated reducing the manual actions required to the least. Modern technology schools made it easier for students to extract the possibilities of the latest tech inventions. Their impact is enormous in crafting a perfect generation expertized in the current technology stuff.
+				</p>
+			</div>
+		</p>
+
+		<!--Footer starts here-->
+		<div style="background-color: #CCCCCC" class="footer">
+			<!--Span for changing text colour-->
+			<span style="color: black;">
+				<p style="text-align: center;">
+				This Website was created by <b>
+				<span style="color: #A45120;"> 
+				Nikhil Acharya</b>
+				</span>
+				&copy 2021
+				<!--Marquee tag for moving text-->
+				<marquee>
+					<p id="date"><br></p>
+				</marquee>
+				<marquee>
+					<p style="padding-left: 120px;">Thank you for visiting this site.</p>
+				</marquee>
+
+				<!--External Javascript for Date & Time-->
+				<script src="../JavaScript/script.js"></script>
+			</span>
+		</div>
+	</body>
+</html>
